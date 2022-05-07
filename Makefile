@@ -3,4 +3,4 @@ all:
 	make -C $(KERN_DIR) M=`pwd` modules   
 clean:   
 	make -C $(KERN_DIR) M=`pwd` modules clean   
-obj-m += myModule.o
+obj-m += Module.o
